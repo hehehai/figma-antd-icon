@@ -1,6 +1,6 @@
 import { jsx } from "@emotion/core";
 
-function SearchIcon(props: React.HTMLProps<SVGSVGElement>) {
+function SearchIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       viewBox="0 0 32 32"

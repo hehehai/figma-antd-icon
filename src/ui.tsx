@@ -6,12 +6,12 @@ import IconButton from "./components/icon-button";
 import SearchInput from "./components/search-input";
 import theme from "./theme";
 import "./ui.css";
-import useSearch from "./use-search";
+// import useSearch from "./use-search";
 import * as antdIcons from "@ant-design/icons-svg";
 
 function App() {
   const [query, setQuery] = React.useState("");
-  const results = useSearch(query);
+  // const results = useSearch(query);
 
   return (
     <div>
